@@ -264,8 +264,41 @@ h1,h2 {
     max-height: 170px;
     width: 100%;
     align-items: center;
-    background-color: rgba(217,188,169, 0.6);
     margin: 0 auto;
+}
+/* go to top caret */
+#top {
+    text-decoration: none;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 10000;
+}
+#top > span {
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
+    text-decoration: none;
+    line-height: 52px;
+    background-color: #E6B17E;
+    border: 2px solid transparent;
+    text-align: center;
+}
+#top  i {
+    color: #7C4E29;
+    font-size: 250%;
+    
+    
+}
+.move_to_top {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+#off {
+    visibility: hidden;
+    
 }
 #foot p {
     font-weight: bold;
@@ -428,10 +461,6 @@ h1,h2 {
     clear: both;
     width: 100%;
     margin: 0 auto;
-    /* position: absolute; */
-    /* bottom: 0%;
-    left: 50%;
-    transform: translate(-50%,235%); */ 
 }
 #map-wrapper {
     width: 100%;
