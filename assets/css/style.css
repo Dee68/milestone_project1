@@ -106,7 +106,7 @@ h1,h2 {
     margin-right: 20%;
     position: absolute;
     z-index: 100;
-    top: 460px;
+    top: 550px;
 }
 #welcome h1 {
     font-size: 180%;
@@ -284,7 +284,7 @@ h1,h2 {
 }
 #contact-image {
     width: 100%;
-    background-image: url(../images/house.jpg);
+    background-image: url(../images/tailor.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -307,10 +307,14 @@ h1,h2 {
 
 #contact-form {
     float: left;
-    width: 60%;
+    width: 55%;
+    max-height: 550px;
+    border: 1px solid #7C4E29;
+    border-radius: 10px;
     margin-top: 330px;
-    padding: 10px 5px;
-    margin-bottom: -10px;
+    margin-left: 8px;
+    padding: 5px 5px;
+    margin-bottom: 0;
 }
 
 #contact-form form label {
@@ -356,7 +360,7 @@ h1,h2 {
 .text-input {
     background-color:#E6B17E;
     color: #7C4E29;
-    width:100%;
+    width:85%;
     height:40px;
     line-height: 50px;
     margin-left: 10px;
@@ -370,7 +374,7 @@ h1,h2 {
 }
 
 #contact-form textarea {
-    width: 100%;
+    width: 85%;
     margin-left: 10px;
     background-color: #E6B17E;
     border: 2px solid #7C4E29;
