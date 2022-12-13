@@ -97,19 +97,28 @@ h1,h2 {
 /* welcome text section */
 #welcome {
     width: 60%;
-    max-height: 60%;
+    height: 65%;
     font-size: 120%;
+    word-wrap: break-word;
     background-color: rgba(217,188,169, 0.6);
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 10px;
     margin-left: 20%;
     margin-right: 20%;
     position: absolute;
     z-index: 100;
-    top: 550px;
+    top: 500px;
 }
-#welcome h1 {
-    font-size: 180%;
+.mytext {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 5px;
+    word-wrap: break-word;
+    border: 1px solid transparent;
+}
+#welcome > h1 {
+    font-size: 280%;
+    text-shadow: 4px 2px #E6B17E;
 }
 #welcome > h1,h3 {
     color: #7C4E29;
@@ -126,7 +135,7 @@ h1,h2 {
 }
 #works  p {
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 110%;
     color: #7C4E29;
 }
 #works h2,h3 {
@@ -295,12 +304,13 @@ h1,h2 {
 
 #info {
     font-size: 380%;
-    color: #fff;
+    color: #7C4E29;
     text-transform: uppercase;
+    text-shadow: 4px 2px #E6B17E;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-30%);
 }
@@ -309,7 +319,6 @@ h1,h2 {
     float: left;
     width: 55%;
     max-height: 550px;
-    border: 1px solid #7C4E29;
     border-radius: 10px;
     margin-top: 330px;
     margin-left: 8px;
@@ -452,6 +461,9 @@ h1,h2 {
     #container nav a {
         font-size: 65%;
         padding: 3px 12px;
+    }
+    #welcome {
+        height: 40%;
     }
 
     #left-content,#right-content {
