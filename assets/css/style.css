@@ -180,12 +180,12 @@ h1,h2 {
     font-weight: bold;
     padding-bottom: 10px;
 }
-.card:hover {
+/* .card:hover {
     height: 400px;
     border: 2px solid #7C4E29;
     transition: all ease-in 3s;
     transform: scale(1);
-}
+} */
 
 #left-content {
     width:33%;
