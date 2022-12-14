@@ -155,6 +155,7 @@ h1,h2 {
     color: #7C4E29; 
     margin-bottom: 15px;
     margin-top: 35px;
+    text-align: center;
 }
 .card {
     text-align: center;
@@ -204,6 +205,54 @@ h1,h2 {
 }
 .card .text:hover{
     opacity: 1;
+}
+
+#sayings {
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* margin: 0 auto; */
+}
+.persons {
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    display: block;
+    height: 180px;
+    position: relative;
+    background-color: rgba(217,188,169, 0.6);
+    opacity: 1;
+}
+#person1 {
+    display: inline-block;
+    width: 23%;
+}
+#person2 {
+    display: inline-block;
+    width: 23%;
+}
+#person3 {
+    display: inline-block;
+    width: 23%;
+}
+#person4 {
+    display: inline-block;
+    width: 23%;
+}
+.persons img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+.persons span {
+    font-size: 70%;
+    font-weight: bold;
+}
+.customer {
+    color: #7C4E29;
 }
 /* about us */
 #about-us {
