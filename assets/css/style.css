@@ -20,6 +20,17 @@ h1,h2 {
     letter-spacing: 4px;
     color: #fafafa;
 }
+.info {
+    font-size: 380%;
+    color: #292F36;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,80%);
+}
 #container {
     display: block;
     width: 100%;
@@ -487,6 +498,60 @@ h1,h2 {
     letter-spacing: 4px;
 }
 
+/* services page */
+#services {
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#services .content {
+    margin-top: 15%;
+    background-color: #fafafa;
+}
+#wedding-dress,#prom-dress,#pageant-dress,#suits {
+    position: relative;
+    width: 23%;
+    display: inline-block;
+    height: 250px;
+    margin-right: 12px;
+
+}
+#wedding-dress {
+    background-image: url('../images/wedding_dress.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#prom-dress {
+    background-image: url('../images/prom_dress.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#pageant-dress {
+    background-image: url('../images/pageant_dress.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#suits {
+    background-image: url('../images/men_suit1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.title {
+    position:absolute;
+    bottom: -30px;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #725E54;
+}
 /* contact page */
 #contact-page {
     width: 100%;
@@ -504,17 +569,7 @@ h1,h2 {
     height: 800px;
 }
 
-#info {
-    font-size: 380%;
-    color: #292F36;
-    text-transform: uppercase;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-30%);
-}
+
 
 #contact-form {
     float: left;
