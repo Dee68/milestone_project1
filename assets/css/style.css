@@ -108,18 +108,15 @@ h1,h2 {
 #main-image {
     width: 100%;
     height: 600px;
+    /* max-height: 700px; */
     display: block;
     position: relative;
 }
-#tailor-image {
+#main-image #tailor-image img {
     width: 100%;
-    background-image: url('../images/tailor.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     z-index: -1;
     margin-top: 3%;
-    height: 600px;
+    height: auto;
 }
 
 /* welcome text section */
@@ -136,7 +133,7 @@ h1,h2 {
     margin-right: 20%;
     position: absolute;
     z-index: 100;
-    top: 400px;
+    top: 80%;
 }
 .mytext {
     width: 100%;
@@ -160,7 +157,7 @@ h1,h2 {
 /* works section */
 #works {
     display: block;
-    margin-top: 5%;
+    margin-top: 25%;
     margin-left: 4%;
     margin-right: 4%;
 }
@@ -489,17 +486,6 @@ h1,h2 {
     height: auto;
     float: right;
     margin-bottom: 50px;
-    /* clear: both; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(217,188,169, 0.7);
-    background-image: url('../images/group.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-   
-    
 }
 #group img {
     width: 100%;
@@ -560,12 +546,12 @@ h1,h2 {
 /* services page */
 #services {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 450px;
     margin-left: 1%;
     margin-right: 1%;
 }
 #dress-type {
-    margin-top: 50px;
+    margin-top: 350px;
     background-color: #fafafa;
     margin-bottom: 50px;
     margin-left: 4%;
@@ -620,7 +606,8 @@ h1,h2 {
 
 #our-services {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
     height: 300px;
     background-color: transparent;
 }
@@ -702,19 +689,10 @@ h1,h2 {
 /* contact page */
 #contact-page {
     width: 100%;
-    margin: 0 auto;
     align-items: center;
+    margin-top: 70px;
 }
-#contact-image {
-    width: 100%;
-    background-image: url('../images/tailor.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    margin-top: 3%;
-    height: 800px;
-}
+
 
 
 
@@ -821,10 +799,12 @@ h1,h2 {
 #map {
     clear: both;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    align-items: center;
+    margin-bottom: 20px;
 }
 #map-wrapper {
-    height: 710px;
+    height: 600px;
     width: 100%;
 
 }
@@ -909,7 +889,7 @@ h1,h2 {
     /* welcome */
     #welcome {
         height: auto;
-        top: 40%;
+        top: 70%;
     }
     #welcome > h1 {
         font-size: 150%;
@@ -1042,7 +1022,7 @@ h1,h2 {
     #welcome {
         width: 60%;
         height: 40%;
-        top: 40%;
+        top: 20%;
     }
     #welcome > h1 {
         font-size: 150%;
@@ -1053,7 +1033,8 @@ h1,h2 {
     /* works */
    
     #works {
-        margin-bottom: 15px;
+        margin-top: -180px;
+        
     }
     #left-content,#right-content {
         width: 100%;
@@ -1137,15 +1118,24 @@ h1,h2 {
     }
 
     /* contact page */
+    .info {
+        top: 10%;
+        left: 50%;
+    }
     #contact,#contact-form {
         float: left;
         width: 100%;
+        clear: both;
+        /* margin-top: -400px; */
     }
     .text-input {
         width: 80%;
     }
     #contact-form textarea {
         width: 80%;
+    }
+    #map {
+        margin-bottom: 50px;
     }
 }
 /* Super Extra Small devices  */
@@ -1158,7 +1148,7 @@ h1,h2 {
     #welcome {
         width: 60%;
         height: 35%;
-        top: 60%;
+        top: 20%;
         font-size: 70%;
     }
    
@@ -1187,10 +1177,7 @@ h1,h2 {
         max-height: 100%;
         overflow: auto;
     }
-    /* .content #group {
-        display: block;
-        margin: auto;
-    } */
+    
     /* news letter */
     #news {
         height: 100px;
