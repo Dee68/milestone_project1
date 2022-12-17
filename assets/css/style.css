@@ -49,15 +49,19 @@ h1,h2 {
 
 
 /* header,logo and navigation */
-#container #logo img {
+
+#container #logo-container {
     float: left;
     clear: left;
     width: 20%;
-    max-height: 5%;
+    height: 80px;
+}
+#container #logo-container #logo img {
+    width: 100%;
+    height: auto;
     padding: 10px 10px;
-    margin-left: 20px;
-} 
-
+    margin-left: 50px;
+}
 #container nav {
     float: right;
     clear: right;
@@ -399,7 +403,7 @@ h1,h2 {
 }
 
 /* move to top icon */
-#top {
+#to-top {
     text-decoration: none;
     align-items: center;
     position: fixed;
@@ -407,7 +411,7 @@ h1,h2 {
     right: 20px;
     z-index: 10000;
 }
-#top > span {
+#to-top > span {
     width: 52px;
     height: 52px;
     border-radius: 52px;
@@ -417,10 +421,10 @@ h1,h2 {
     border: 2px solid transparent;
     text-align: center;
 }
-#top > span:hover {
+#to-top > span:hover {
     background-color: transparent;
 }
-#top  i {
+#to-top  i {
     color: #292F36;
     font-size: 250%;
     
@@ -466,12 +470,12 @@ h1,h2 {
     width: 50%;
     height: auto;
     float: left;
-    clear: left;
+    clear: both;
     margin: 0 auto;
     padding: 8px 8px;
     line-height: 1.6;
     font-size: 1.2em;
-    margin-bottom: 20px; 
+    margin-bottom: 50px; 
 }
 
 #how-we-started p::first-letter {
@@ -482,18 +486,25 @@ h1,h2 {
 
 #group {
     width: 50%;
-    height: 400px;
+    height: auto;
     float: right;
-    display: flex;
+    margin-bottom: 50px;
+    /* clear: both; */
+    /* display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(217,188,169, 0.7);
     background-image: url('../images/group.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    margin-bottom:20px;
+    background-size: cover; */
+   
     
+}
+#group img {
+    width: 100%;
+    height: auto;
+
 }
 /* newsletter section */
 #newsletter {
@@ -835,8 +846,8 @@ h1,h2 {
         max-width: 1870px;
         
     }
-    #container #logo img {
-        margin-left: 60px;
+    #container #logo-container #logo img {
+        margin-left: 80px;
     }
 } 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -846,8 +857,8 @@ h1,h2 {
         max-width: 1024px;
         
     }
-    #container #logo img {
-        margin-left: 20px;
+    #container #logo-container #logo img {
+        margin-left: 60px;
     }
      /* welcome */
      #welcome {
@@ -878,10 +889,8 @@ h1,h2 {
     .content  h2 {
         text-align: center;
     }
-    #container #logo img {
-        width: 30%;
-        max-height: 18%;
-        margin-left: 15px;
+    #container #logo-container #logo img {
+        margin-left: 30px;
     }
     #container nav {
         float: left;
@@ -1012,9 +1021,8 @@ h1,h2 {
         justify-content: center;
     }
     /* header & navigation */
-    #container #logo img {
-        width: 30%;
-        max-height: 12%;
+    #container #logo-container #logo img {
+      
         margin-left: 10px;
     }
     #container nav {
