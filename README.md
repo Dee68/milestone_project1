@@ -21,7 +21,8 @@ Users of this website will be able to find all the information they need to know
 - I tested that this page works in different browsers : Chrome, Firefox and Safari
 - I confirmed that the navigation, header, about, services and contact pages all have readable texts and are easy to understand.
 - I have confirmed that the form works correctly validating all input elements and the submit button works.
-
+![contact page](assets/images/contact.png)
+![newsletter](assets/images/newsletter.png)
 ### Bugs
 #### Solved bugs
 - When I tested my web pages with lighthouse I discovered that the upload time of the pages was very slow.
@@ -43,6 +44,7 @@ Users of this website will be able to find all the information they need to know
 - CSS
   - No errors were returned when passing through the official [CSS Valdation Service](https://jigsaw.w3.org/css-validator/)
   ![stylesheet](assets/images/W3C-css.png)
+
 
 ## Google Developer Tools
 - I made use of the built-in **Chrome Dev Tools** to experiment and debug while coding, in addition to testing simulated responsive behaviour across a wide range of mobile and desktop devices, and finally checking all pages Performance using **Lighthouse**.
