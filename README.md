@@ -48,7 +48,7 @@ Users of this website will be able to find all the information they need to know
 
 ## Google Developer Tools
 - I made use of the built-in **Chrome Dev Tools** to experiment and debug while coding, in addition to testing simulated responsive behaviour across a wide range of mobile and desktop devices, and finally checking all pages Performance using **Lighthouse**.
-![Lamad performance](assets/images/perfomance.png)
+![Lamad performance](assets/images/performance-sucks%20.png)
 - I spent too much time trying to improve the performance of my pages, eventually changed all the images to .webp format.
 ![Lamad better performance](assets/images/lamad-performance.jpeg)
 
