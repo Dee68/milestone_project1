@@ -4,26 +4,7 @@ The Lamad website is a tailoring website that is the dream of a group of Ukraini
 
 Users of this website will be able to find all the information they need to know about Lamad:Buisness hours, services and contact information.This site is targeted towards anyone that is in need of a unique dress or needs dress to be altered.
 
-![lamad responsive image](assets/images/lamad-responsive.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![lamad responsive image](assets/images/lamad-responsive-white.webp)
 
 
 ## Features
@@ -33,7 +14,9 @@ Users of this website will be able to find all the information they need to know
     - The other navigation links are to the right: Home, About, Services and Contact which links to different corresponding pages.
     - The navigation is in a font and color that contrasts the background.
     - The navigation clearly tells the user the name of the tailoring website and makes the information of different pages easy to find.
-
+#
+## Logo     About      Services       Contact
+![home page](assets/images/homepage.webp)
 ## Testing
 - I tested that this page works in different browsers : Chrome, Firefox and Safari
 - I confirmed that the navigation, header, about, services and contact pages all have readable texts and are easy to understand.
@@ -52,8 +35,24 @@ Users of this website will be able to find all the information they need to know
 
 ### Validator Testing
 - HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+  ![index page](assets/images/w3c-html.png)
+  ![about page](assets/images/W3C-about.png)
+  ![services page](assets/images/W3C-service.png)
+  ![contact page](assets/images/W3C-contact.png)
 - CSS
+  - No errors were returned when passing through the official [CSS Valdation Service](https://jigsaw.w3.org/css-validator/)
+  ![stylesheet](assets/images/W3C-css.png)
+
+## Google Developer Tools
+- I made use of the built-in **Chrome Dev Tools** to experiment and debug while coding, in addition to testing simulated responsive behaviour across a wide range of mobile and desktop devices, and finally checking all pages Performance using **Lighthouse**.
+![Lamad performance](assets/images/perfomance.png)
+- I spent too much time trying to improve the performance of my pages, eventually changed all the images to .webp format.
+![Lamad better performance](assets/images/lamad-performance.jpeg)
+
+
 - Accessibility
+  - 
 
 
 ### Unfixed Bugs
@@ -70,6 +69,7 @@ No unfixed bugs
 ## Content
 - The code to make an accordion was taken from [W3schools Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
 - The code to make the footer was taken from the CI [Love Running](https://dee68.github.io/love-running/) project.
+- All icons on the pages where taken from [FontAwesome](https://fontawesome.com)
 
 ## Media
 - The logo in the header was made from [Free Logo Maker](https://logo.com/)
