@@ -52,7 +52,7 @@ Users of this website will be able to find all the information they need to know
 
 
 - Accessibility
-  - 
+  - I confirmed that the colors and fonts chosen are easy to read accessible by running through lighthouse in devtools.
 
 
 ### Unfixed Bugs
@@ -60,6 +60,9 @@ No unfixed bugs
 
 # Deployment
 - The site was deployed to Github pages. The steps to deploy are as follows: 
+  - In the Github pages, navigate to the settings tab
+  - From the source section drop-down select the Main Branch
+  - Once the main branch has been selected it provides link to the website.
 
 
 
