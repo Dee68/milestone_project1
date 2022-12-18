@@ -4,7 +4,7 @@ The Lamad website is a tailoring website that is the dream of a group of Ukraini
 
 Users of this website will be able to find all the information they need to know about Lamad:Buisness hours, services and contact information.This site is targeted towards anyone that is in need of a unique dress or needs dress to be altered.
 
-![lamad responsive image](assets/images/lamad-responsive-white.webp)
+![lamad responsive image](assets/images/lamad-responsive-white.png)
 
 
 ## Features
