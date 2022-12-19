@@ -129,6 +129,8 @@ h2 {
     width: 100%;
     z-index: -10;
     margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
     position: absolute;
     height: auto;
 }
