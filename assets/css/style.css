@@ -108,7 +108,6 @@ h1,h2 {
 #main-image {
     width: 100%;
     height: 600px;
-    /* max-height: 700px; */
     display: block;
     position: relative;
 }
@@ -676,6 +675,7 @@ h1,h2 {
 }
 #how:checked ~ .accordion-content{
     display: block;
+    
 }
 .accordion div #cost{
     display: none;
