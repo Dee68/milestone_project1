@@ -43,7 +43,7 @@ h1,h2 {
     position: fixed;
     z-index: 800;
     top: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     
 }
 
@@ -461,7 +461,7 @@ h1,h2 {
 #about {
     width: 100%;
     align-items: center;
-   margin-top: 400px;
+    margin-top: 400px;
 }
 
 #about .content h2 {
@@ -614,10 +614,12 @@ h1,h2 {
     width: 100%;
     margin-top: 150px;
     margin-bottom: 50px;
-    height: 300px;
+    height: 900px;
     background-color: transparent;
 }
-
+#our-services .content {
+    height: 100%;
+}
 
 #newly-married{
     float: left;
@@ -639,9 +641,12 @@ h1,h2 {
 }
 /* accordion menu */
 .accordion {
+    float: right;
+    clear:right;
     width: 45%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
+    height: auto;
     overflow: hidden;
     background-color: rgba(217,188,169, 0.6);
 }
@@ -665,28 +670,23 @@ h1,h2 {
     font-size: 1.2em;
     display: none;
 }
-.accordion div #alteration{
+.accordion div #how,#cost,#fittings,#alteration{
     display: none;
 }
+
 #alteration:checked ~ .accordion-content{
     display: block;
 }
-.accordion div #how{
-    display: none;
-}
+
 #how:checked ~ .accordion-content{
     display: block;
 
 }
-.accordion div #cost{
-    display: none;
-}
+
 #cost:checked ~ .accordion-content{
     display: block;
 }
-.accordion div #fittings{
-    display: none;
-}
+
 #fittings:checked ~ .accordion-content{
     display: block;
 } 
@@ -829,10 +829,10 @@ h1,h2 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #container {
-        max-width: 1870px;
+    /* #container {
+        /* max-width: 1870px; */
         
-    }
+   /* } */
     #container #logo-container #logo img {
         margin-left: 80px;
     }
@@ -959,11 +959,11 @@ h1,h2 {
         width: 100%;
         float: left;
     }
-    /* bug fix */
+    
     .content #times  > h2 {
         font-size: 90%;  
     }
-    /* bug fix */
+    
     .content #times > div {
         margin-top: 50px;
     }
