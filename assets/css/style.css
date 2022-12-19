@@ -1,4 +1,6 @@
+/* Font Lato and Oswald import from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-    font-family: Lato,sans-serif;
+    font-family: Lato, sans-serif;
     background-color: #fafafa;
     font-weight: 300;
     color: #3a3a3a;
@@ -15,8 +17,9 @@ body {
 
 /* Global */
 
-h1,h2 {
-    font-family: Oswald,sans-serif;
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fafafa;
@@ -31,38 +34,41 @@ h1,h2 {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%,80%);
+    transform: translate(-50%, 80%);
 }
-#container {
+
+.container {
     display: block;
     margin: 0 auto;
     width: 100%;
-    background-color: #292F36;;
+    background-color: #292F36;
     border-bottom: 2px solid #7C4E29;
     max-height: 20%;
     position: fixed;
     z-index: 800;
     top: 0;
     overflow: hidden;
-    
+
 }
 
 
 /* header,logo and navigation */
 
-#container #logo-container {
+.container #logo-container {
     float: left;
     clear: left;
     width: 20%;
     height: 80px;
 }
-#container #logo-container #logo img {
+
+.container #logo-container #logo img {
     width: 100%;
     height: auto;
     padding: 10px 10px;
     margin-left: 50px;
 }
-#container nav {
+
+.container nav {
     float: right;
     clear: right;
     align-items: center;
@@ -70,15 +76,16 @@ h1,h2 {
     padding: 2% 6%;
 }
 
-#container nav ul {
+.container nav ul {
     list-style-type: none;
 }
 
-#container nav li {
+.container nav li {
     display: inline-block;
     margin-right: 18px;
 }
-#container nav li::after {
+
+.container nav li::after {
     content: '';
     display: block;
     width: 0%;
@@ -87,19 +94,23 @@ h1,h2 {
     background-color: #D5DCF9;
     transition: 0.5s ease;
 }
-#container nav li:hover::after {
+
+.container nav li:hover::after {
     width: 100%;
 }
-#container nav a {
+
+.container nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #D5DCF9;
 }
-#container nav a:hover {
+
+.container nav a:hover {
     border-bottom: 1px solid #D5DCF9;
     color: #D5DCF9;
 }
+
 .active {
     border-bottom: 1px solid #D5DCF9;
 }
@@ -112,6 +123,7 @@ h1,h2 {
     margin: 0 auto;
     position: relative;
 }
+
 #main-image #tailor-image img {
     width: 100%;
     z-index: -10;
@@ -126,7 +138,7 @@ h1,h2 {
     font-size: 120%;
     font-weight: bold;
     word-wrap: break-word;
-    background-color: rgba(217,188,169, 0.7);
+    background-color: rgba(217, 188, 169, 0.7);
     text-align: center;
     padding: 10px 10px;
     margin-left: 20%;
@@ -135,6 +147,7 @@ h1,h2 {
     z-index: 100;
     top: 80%;
 }
+
 .mytext {
     width: 100%;
     margin: 0 auto;
@@ -142,16 +155,20 @@ h1,h2 {
     word-wrap: break-word;
     border: 1px solid transparent;
 }
-#welcome > h1 {
+
+#welcome>h1 {
     font-size: 280%;
     font-weight: bold;
 }
-#welcome > h2 {
+
+#welcome>h2 {
     font-size: 60%;
 }
-#welcome > h1,h2 {
+
+#welcome>h1,
+h2 {
     color: #292F36;
-    
+
 }
 
 /* works section */
@@ -161,31 +178,36 @@ h1,h2 {
     margin-left: 4%;
     margin-right: 4%;
 }
-#works  p {
+
+#works p {
     font-weight: bold;
     font-size: 110%;
     color: #292F36;
 }
-#works h2,h3 {
+
+#works h2,
+h3 {
     font-size: 110%;
     color: #292F36;
     transform: translate(0);
     text-align: center;
 }
+
 .content {
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px 20px;
 }
 
-.content > h2 {
+.content>h2 {
     text-transform: uppercase;
     font-size: 150%;
-    color: #292F36; 
+    color: #292F36;
     margin-bottom: 15px;
     margin-top: 35px;
     text-align: center;
 }
+
 .card {
     text-align: center;
     padding: 30px 30px;
@@ -193,19 +215,21 @@ h1,h2 {
     display: block;
     height: 150px;
     position: relative;
-    background-color: rgba(217,188,169, 0.7);   
+    background-color: rgba(217, 188, 169, 0.7);
 }
+
 .card i {
     font-size: 200%;
     font-weight: bold;
     color: #292F36;
 }
 
-.card > h3 {
+.card>h3 {
     font-size: 120%;
     font-weight: bold;
     padding-bottom: 10px;
 }
+
 .card:hover {
     height: auto;
     border: 2px solid #7C4E29;
@@ -214,25 +238,29 @@ h1,h2 {
 }
 
 #left-content {
-    width:33%;
-    float:left;
+    width: 33%;
+    float: left;
 }
 
 #right-content {
     float: right;
     width: 33%;
 }
+
 #center-content {
     width: 33%;
     margin: 0 auto;
 }
-.card .text{
+
+.card .text {
     opacity: 0;
     transition: 0.5s;
 }
-.card .text:hover{
+
+.card .text:hover {
     opacity: 1;
 }
+
 .text {
     text-align: center;
     font-size: 75%;
@@ -243,7 +271,7 @@ h1,h2 {
     width: 100%;
     display: block;
     margin-left: 4%;
-    margin-right: 4%;  
+    margin-right: 4%;
 }
 
 .design {
@@ -251,28 +279,14 @@ h1,h2 {
     padding: 10px 10px;
     border: 1px solid transparent;
     display: block;
-    height: 250px; 
+    height: 250px;
     position: relative;
-    background-color: rgba(217,188,169, 0.6);
-    box-shadow: 0 0 10px rgba(217,188,169, 0.6);
+    background-color: rgba(217, 188, 169, 0.6);
+    box-shadow: 0 0 10px rgba(217, 188, 169, 0.6);
     opacity: 1;
 }
-#person1 {
-    display: inline-block;
-    vertical-align: top;
-    width: 23%;
-}
-#person2 {
-    display: inline-block;
-    vertical-align: top;
-    width: 23%;
-}
-#person3 {
-    display: inline-block;
-    vertical-align: top;
-    width: 23%;
-}
-#person4 {
+
+.placeholder {
     display: inline-block;
     vertical-align: top;
     width: 23%;
@@ -282,16 +296,19 @@ h1,h2 {
     font-size: 80%;
     font-weight: bold;
 }
+
 .customer {
     font-size: 110%;
     font-weight: bold;
     color: #7C4E29;
 }
-#client1,#client2,#client3,#client4 {
+
+.client {
     width: 100px;
     height: 100px;
     margin: 0 auto;
 }
+
 #client1 {
     background-image: url('../images/person1.webp');
     background-repeat: no-repeat;
@@ -300,6 +317,7 @@ h1,h2 {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
 #client2 {
     background-image: url('../images/person2.webp');
     background-repeat: no-repeat;
@@ -308,6 +326,7 @@ h1,h2 {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
 #client3 {
     background-image: url('../images/person3.webp');
     background-repeat: no-repeat;
@@ -316,6 +335,7 @@ h1,h2 {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
 #client4 {
     background-image: url('../images/person4.webp');
     background-repeat: no-repeat;
@@ -331,21 +351,23 @@ h1,h2 {
     margin-top: 10px;
     transform: translate(0);
     padding-top: 15px;
-    align-items: center; 
+    align-items: center;
     margin-left: 4%;
-    margin-right: 4%; 
+    margin-right: 4%;
 }
+
 #times {
     padding: 10px 10px;
     margin-top: 10px;
     width: 40%;
-    background-color: rgba(217,188,169, 0.7);
-    box-shadow: 0 0 10px rgba(217,188,169, 0.6);
+    background-color: rgba(217, 188, 169, 0.7);
+    box-shadow: 0 0 10px rgba(217, 188, 169, 0.6);
     height: 300px;
     float: left;
     clear: left;
 }
-#times > h2 {
+
+#times>h2 {
     text-align: left;
     font-size: 140%;
     font-weight: bold;
@@ -356,6 +378,7 @@ h1,h2 {
     margin-left: 10px;
     color: #292F36;
 }
+
 #times p {
     text-align: left;
     display: block;
@@ -375,27 +398,30 @@ h1,h2 {
     width: 60%;
     height: 300px;
     background-color: #292F36;
-    box-shadow: 0 0 10px rgba(217,188,169, 0.6);
+    box-shadow: 0 0 10px rgba(217, 188, 169, 0.6);
     background-image: url('../images/lamad.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 
 }
+
 /* footer */
 #foot {
     clear: both;
-    display:block;
+    display: block;
     max-height: 170px;
     width: 100%;
     align-items: center;
     margin: 0 auto;
 }
+
 #foot #copy {
     height: 40px;
     background-color: #292F36;
 
 }
+
 #foot p {
     font-weight: bold;
     font-size: 110%;
@@ -414,46 +440,54 @@ h1,h2 {
     right: 20px;
     z-index: 10000;
 }
-#to-top > span {
+
+#to-top>span {
     width: 52px;
     height: 52px;
     border-radius: 52px;
     text-decoration: none;
     line-height: 52px;
-    background-color: rgba(217,188,169, 0.7);
+    background-color: rgba(217, 188, 169, 0.7);
     border: 2px solid transparent;
     text-align: center;
 }
-#to-top > span:hover {
+
+#to-top>span:hover {
     background-color: transparent;
 }
-#to-top  i {
+
+#to-top i {
     color: #292F36;
     font-size: 250%;
-    
-    
+
+
 }
+
 .move_to_top {
     position: relative;
     display: inline-block;
     vertical-align: middle;
 }
+
 #off {
     visibility: hidden;
-    
+
 }
+
 /* social icons */
 
 .social-links {
     text-align: center;
 }
-.social-links > li {
+
+.social-links>li {
     display: inline;
 }
+
 .social-links i {
     font-size: 160%;
     color: #292F36;
-    margin:  1%;
+    margin: 1%;
     padding: 5%;
 }
 
@@ -469,7 +503,8 @@ h1,h2 {
     font-weight: bold;
     text-align: justify;
 }
-#how-we-started {
+
+.how-we-started {
     width: 50%;
     height: auto;
     float: left;
@@ -478,10 +513,10 @@ h1,h2 {
     padding: 8px 8px;
     line-height: 1.6;
     font-size: 1.2em;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
-#how-we-started p::first-letter {
+.how-we-started p::first-letter {
     text-transform: capitalize;
     font-size: 110%;
     font-weight: bold;
@@ -493,13 +528,15 @@ h1,h2 {
     float: right;
     margin-bottom: 50px;
 }
+
 #group img {
     width: 100%;
     height: auto;
 
 }
+
 /* newsletter section */
-#newsletter {
+.newsletter {
     clear: both;
     width: 100%;
     align-items: center;
@@ -507,14 +544,16 @@ h1,h2 {
     margin-right: 1%;
     margin-top: 100px;
 }
-#news {
+
+.news {
     height: 150px;
-    margin-top:15%;
-    background-color: rgba(217,188,169, 0.7);
+    margin-top: 15%;
+    background-color: rgba(217, 188, 169, 0.7);
     margin-left: 5%;
     margin-right: 5%;
 }
-#news form input {
+
+.news form input {
     width: 40%;
     height: 40px;
     margin-top: 10px;
@@ -525,23 +564,26 @@ h1,h2 {
     font-size: 150%;
     color: #292F36;
 }
-#news form button {
+
+.news form button {
     margin-left: 45%;
     margin-right: 45%;
-    margin-top:18px;
+    margin-top: 18px;
     border: 1px solid #fafafa;
     background-color: #292F36;
     color: #D5DCF9;
     border-radius: 20px;
-    font-size:120%;
+    font-size: 120%;
     text-transform: uppercase;
     padding: 10px 20px;
 }
-#news form button:hover {
+
+.news form button:hover {
     background-color: #D5DCF9;
     color: #292F36;
 }
-#news h3 {
+
+.news h3 {
     font-size: 130%;
     font-weight: bold;
     color: #292F36;
@@ -556,7 +598,8 @@ h1,h2 {
     margin-left: 1%;
     margin-right: 1%;
 }
-#dress-type {
+
+.dress-type {
     margin-top: 420px;
     background-color: #fafafa;
     margin-bottom: 50px;
@@ -565,7 +608,7 @@ h1,h2 {
     justify-content: center;
 }
 
-#wedding-dress,#prom-dress,#pageant-dress,#suits {
+.dress {
     position: relative;
     width: 23%;
     display: inline-block;
@@ -573,12 +616,14 @@ h1,h2 {
     margin-right: 12px;
 
 }
+
 #wedding-dress {
     background-image: url('../images/wedding_dress.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 #prom-dress {
     background-image: url('../images/prom_dress.webp');
     background-repeat: no-repeat;
@@ -586,21 +631,23 @@ h1,h2 {
     background-size: cover;
 
 }
+
 #pageant-dress {
     background-image: url('../images/pageant_dress.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 #suits {
     background-image: url('../images/men_suit1.webp');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .title {
-    position:absolute;
+    position: absolute;
     bottom: -30px;
     text-align: center;
     font-size: 110%;
@@ -610,50 +657,57 @@ h1,h2 {
     color: #292F36;
 }
 
-#our-services {
+.our-services {
     width: 100%;
     margin-top: 150px;
     margin-bottom: 50px;
     height: 900px;
     background-color: transparent;
 }
-#our-services .content {
+
+.our-services .content {
     height: 100%;
 }
 
-#newly-married{
+#newly-married {
     float: left;
     clear: both;
     width: 50%;
     height: auto;
 }
+
 #newly-married img {
     width: 100%;
     height: auto;
 }
+
 #service-detail {
     float: right;
     width: 50%;
     height: auto;
     margin-left: 5px;
     padding-right: 5px;
-   
+
 }
+
 /* accordion menu */
 .accordion {
     float: right;
-    clear:right;
+    clear: right;
     width: 45%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     height: auto;
     overflow: hidden;
-    background-color: rgba(217,188,169, 0.6);
+    background-color: rgba(217, 188, 169, 0.6);
 }
-.accordion-label, .accordion-content{
+
+.accordion-label,
+.accordion-content {
     padding: 14px 20px;
 }
-.accordion-label{
+
+.accordion-label {
     display: block;
     color: #292F36;
     font-weight: bold;
@@ -661,35 +715,41 @@ h1,h2 {
     position: relative;
     transition: background-color 0.1s;
 }
-.accordion-label:hover{
+
+.accordion-label:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-.accordion-content{
+
+.accordion-content {
     background: white;
     line-height: 1.6;
     font-size: 1.2em;
     display: none;
 }
-.accordion div #how,#cost,#fittings,#alteration{
+
+.accordion div #how,
+#cost,
+#fittings,
+#alteration {
     display: none;
 }
 
-#alteration:checked ~ .accordion-content{
+#alteration:checked~.accordion-content {
     display: block;
 }
 
-#how:checked ~ .accordion-content{
+#how:checked~.accordion-content {
     display: block;
 
 }
 
-#cost:checked ~ .accordion-content{
+#cost:checked~.accordion-content {
     display: block;
 }
 
-#fittings:checked ~ .accordion-content{
+#fittings:checked~.accordion-content {
     display: block;
-} 
+}
 
 
 
@@ -731,6 +791,7 @@ h1,h2 {
     margin-top: 330px;
     padding: 10px 5px;
 }
+
 #contact p i {
     color: #292F36;
 }
@@ -745,6 +806,7 @@ h1,h2 {
     margin-bottom: 10px;
     margin-left: 15px;
 }
+
 #contact p {
     text-align: left;
     letter-spacing: 2px;
@@ -753,19 +815,20 @@ h1,h2 {
     color: #292F36;
     font-size: 110%;
     font-weight: bolder;
-}  
+}
 
 .text-input {
     background-color: #D5DCF9;
     color: #292F36;
-    width:85%;
-    height:40px;
+    width: 85%;
+    height: 40px;
     line-height: 50px;
     margin-left: 10px;
     margin-bottom: 20px;
     border: 2px solid #292F36;
-    border-radius:4px;
+    border-radius: 4px;
 }
+
 .text-input:hover {
     background-color: #292F36;
     color: #D5DCF9;
@@ -785,17 +848,18 @@ h1,h2 {
 }
 
 .btn {
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 370px;
     margin-left: 10px;
     border-radius: 6px;
-    padding:15px 32px;
-    text-align:center;
-    font-size:120%;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 120%;
     background-color: #292F36;
     color: #D5DCF9;
-    display:block;
+    display: block;
 }
+
 .btn:hover {
     background-color: #D5DCF9;
     color: #292F36;
@@ -810,130 +874,160 @@ h1,h2 {
     align-items: center;
     margin-bottom: 20px;
 }
+
 #map-wrapper {
     height: 600px;
     width: 100%;
 
 }
+
 #map-wrapper h2 {
     text-align: center;
     margin-bottom: 20px;
 }
+
 #map-wrapper iframe {
- width: 100%;
- height: 100%;
- border: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 /* media queries */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /* #container {
-        /* max-width: 1870px; */
-        
-   /* } */
-    #container #logo-container #logo img {
+    .container #logo-container #logo img {
         margin-left: 80px;
     }
+
     #welcome {
         top: 750px;
     }
+
     #works {
-        margin-top: 40%; 
+        margin-top: 40%;
     }
+
     #sayings {
-        margin-top: 50px; 
+        margin-top: 50px;
     }
+
     /* about */
     #about {
-        margin-top: 700px;
+        margin-top: 300px;
     }
+
     /* services */
     #service {
-        margin-top: 750px;
+        margin-top: 350px;
     }
+
     /* contact */
     #contact-page {
-        margin-top: 450px;
+        margin-top: 100px;
     }
-    
-} 
+
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media screen and (min-width: 993px) and (max-width: 1199px) {
-   
-    #container #logo-container #logo img {
+
+    .container #logo-container #logo img {
         margin-left: 60px;
     }
-     /* welcome */
-     #welcome {
+
+    /* welcome */
+    #welcome {
         height: auto;
         top: 80%;
-       
+
     }
-    #welcome > h1 {
+
+    #welcome>h1 {
         font-size: 180%;
     }
-    #welcome  h2 {
+
+    #welcome h2 {
         font-size: 80%;
     }
+
     .design {
         height: 300px;
     }
-  
+    #service {
+        margin-top: -200px;
+    }
+    #contact-page {
+        margin-top: -90px;
+    }
+
 
 }
 
 /* Medium devices (landscape tablets, 768px and up to 992px) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
     /* global */
     .info {
         font-size: 250%;
         top: 30%;
         justify-content: center;
     }
-    .content  h2 {
+
+    .content h2 {
         text-align: center;
     }
-    #container #logo-container #logo img {
+
+    .container #logo-container #logo img {
         margin-left: 30px;
     }
-    #container nav {
+
+    .container nav {
         float: left;
         margin-top: 25px;
         margin-right: -150px;
     }
-    #container nav li {
+
+    .container nav li {
         margin-right: 0;
         margin-bottom: 2px;
         margin-left: -5px;
     }
-    #container nav a {
+
+    .container nav a {
         font-size: 65%;
         padding: 2px 8px;
     }
+
     /* welcome */
     #welcome {
         height: auto;
         top: 70%;
     }
-    #welcome > h1 {
+
+    #welcome>h1 {
         font-size: 150%;
     }
-    #welcome  h2 {
+
+    #welcome h2 {
         font-size: 70%;
     }
+
     /* works */
     #works {
+        margin-top: -2px;
         margin-bottom: 15px;
     }
-    #left-content,#right-content {
+
+    #left-content,
+    #right-content {
         width: 100%;
         padding: 0;
         float: left;
         margin-bottom: 10px;
     }
+
     #center-content {
         float: left;
         clear: both;
@@ -941,145 +1035,191 @@ h1,h2 {
         padding: 0;
         margin-bottom: 10px;
     }
+
     .card i {
         padding-top: 10px;
     }
+    #sayings,#buisness-hours {
+        margin: auto;
+    }
+
     /* what people say */
     .content h2 {
         float: left;
         clear: both;
     }
-    #person1,#person2,#person3,#person4 {
+
+    .placeholder {
         float: left;
         width: 100%;
         margin-bottom: 5px;
     }
-     /* buisness hours */
-     #times,#deviz {
+    #foot p {
+        font-weight: bold;
+        font-size: 105%;
+        color: #D5DCF9;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    /* buisness hours */
+    #times,
+    #deviz {
         width: 100%;
         float: left;
     }
-    
-    .content #times  > h2 {
-        font-size: 90%;  
+
+    .content #times>h2 {
+        font-size: 90%;
     }
-    
-    .content #times > div {
+
+    .content #times>div {
         margin-top: 50px;
     }
+
     /* about page */
-    #how-we-started {
+    .how-we-started {
         width: 100%;
         float: left;
         text-align: center;
         padding: 5px 5px;
         margin-bottom: 25px;
     }
+
     #group {
-        width:100%;
+        width: 100%;
         float: left;
     }
-   
+    /* service */
+    #service {
+        margin-top: -300px;
+    }
+
 
     /* contact page */
-    #contact,#contact-form {
+   
+    #contact,
+    #contact-form {
         float: left;
         width: 100%;
     }
+
     #contact-form {
         margin-top: -45px;
     }
+
     #contact {
         margin-top: -5px;
     }
+
     .text-input {
         width: 80%;
     }
+
     #contact-form textarea {
         width: 80%;
     }
+
     /* service page */
-    #wedding-dress,#prom-dress {
+    #wedding-dress,
+    #prom-dress {
         width: 46%;
         margin-bottom: 50px;
     }
-    #pageant-dress,#suits {
+
+    #pageant-dress,
+    #suits {
         width: 46%;
         float: left;
         margin-bottom: 50px;
     }
+
     #newly-married {
         width: 100%;
         margin-bottom: 30px;
     }
-    #service-details {
+
+    .service-details {
         float: left;
         width: 100%;
         margin-left: 0;
         padding: 0;
         margin-bottom: 30px;
     }
+
     .accordion {
         width: 100%;
     }
-    
+
 }
 
 
 /* Medium devices (landscape tablets, 768px and below) */
 @media screen and (max-width: 767px) {
-     /* global */
-     .info {
+
+    /* global */
+    .info {
         font-size: 200%;
         top: 40%;
         justify-content: center;
     }
+
     /* header & navigation */
 
-    #container #logo-container #logo img {
-      
+    .container #logo-container #logo img {
+
         margin-left: 10px;
         font-size: 80%;
     }
-    #container nav {
+
+    .container nav {
         float: left;
         margin-top: 25px;
         margin-right: -70px;
-        margin-left: -105px;
+        margin-left: -90px;
     }
-    
-    #container nav li {
+
+    .container nav li {
         margin-right: 0;
         margin-bottom: 2px;
         margin-left: -5px;
     }
-    #container nav a {
+
+    .container nav a {
         font-size: 60%;
         padding: 1px 5px;
     }
+
     #welcome {
         width: 60%;
         height: 40%;
         top: 20%;
     }
-    #welcome > h1 {
+
+    #welcome>h1 {
         font-size: 150%;
     }
-    #welcome  h2 {
+
+    #welcome h2 {
         font-size: 55%;
     }
+
     /* works */
-   
+
     #works {
-        margin-top: -180px;
-        
+        margin-top: -100px;
+
     }
-    #left-content,#right-content {
+
+    #left-content,
+    #right-content {
         width: 100%;
         padding: 0;
         float: left;
         margin-bottom: 10px;
     }
+
     #center-content {
         float: left;
         clear: both;
@@ -1087,92 +1227,116 @@ h1,h2 {
         padding: 0;
         margin-bottom: 10px;
     }
+
     .card i {
         font-size: 150%;
         font-weight: bold;
         color: #292F36;
         padding-top: 10px;
     }
-    #person1,#person2,#person3,#person4 {
+
+    .placeholder{
         float: left;
         width: 100%;
         margin-bottom: 5px;
     }
+    #sayings,#buisness-hours {
+        margin: auto;
+    }
+
     /* buisness hours */
-    #times,#deviz {
+    #times,
+    #deviz {
         width: 100%;
         float: left;
     }
+
     #foot p {
         font-weight: bold;
         font-size: 90%;
-        color: #292F36;
+        color: #D5DCF9;
+        margin-top: 5px;
         text-align: center;
     }
+
     /* about page */
     #about {
         margin-top: -150px;
     }
-    #how-we-started {
+
+    .how-we-started {
         width: 100%;
         float: left;
         text-align: center;
         padding: 5px 5px;
-        /* margin-top: -50px; */
     }
+
     #group {
-        width:100%;
+        width: 100%;
         float: left;
-        /* margin: 0 auto; */
         align-items: center;
     }
+
     /* news letter */
-    #news {
+    .news {
         height: 100px;
     }
-    #news h3 {
+
+    .news h3 {
         font-size: 90%;
     }
-    #news form input {
+
+    .news form input {
         width: 60%;
         height: 30px;
         margin-left: 20%;
         margin-right: 20%;
         border-radius: 5px;
         font-size: 70%;
-        
+
     }
-    #news form button {
+
+    .news form button {
         margin-left: 40%;
         margin-right: 50%;
-        margin-top:5px;
+        margin-top: 5px;
         border-radius: 10px;
-        font-size:80%;
+        font-size: 80%;
         padding: 5px 10px;
     }
 
-    
-     /* service page */
-     #wedding-dress,#prom-dress {
+
+    /* service page */
+
+    #service {
+        margin-top: -550px;
+    }
+    #wedding-dress,
+    #prom-dress {
         width: 46%;
         margin-bottom: 50px;
     }
-    #pageant-dress,#suits {
+
+    #pageant-dress,
+    #suits {
         width: 46%;
         float: left;
         margin-bottom: 50px;
     }
+
     #newly-married {
         width: 100%;
         margin-bottom: 30px;
     }
-    #service-details {
+
+    .service-details {
         float: left;
         width: 100%;
         margin-left: 0;
         padding: 0;
         margin-bottom: 30px;
     }
+
     .accordion {
         width: 100%;
     }
@@ -1182,123 +1346,176 @@ h1,h2 {
         top: 10%;
         left: 50%;
     }
-    #contact,#contact-form {
+    #contact-page {
+        margin-top: -50px;
+    }
+    #contact,
+    #contact-form {
         float: left;
         width: 100%;
         clear: both;
-        
+
     }
+
     #contact-form {
         margin-top: -250px;
     }
+
     #contact {
         margin-top: -5px;
     }
+
     .text-input {
         width: 80%;
     }
+
     #contact-form textarea {
         width: 80%;
     }
+
     #map {
         margin-bottom: 50px;
     }
 }
+
 /* Super Extra Small devices  */
 
 @media screen and (max-width: 360px) {
-    #container #logo-container #logo img {
-        margin-left: -10px;
+    .container #logo-container #logo img {
+        margin-left: 10px;
     }
-    #container nav {
+
+    .container nav {
         float: left;
         margin-top: 25px;
         margin-right: -70px;
         margin-left: -75px;
     }
-    
+
     #welcome {
         width: 60%;
         height: 35%;
         top: 20%;
         font-size: 70%;
     }
-   
-     /* about page */
-     
-     #how-we-started {
+    #works {
+        margin-top: -180px;
+    }
+    #sayings,#buisness-hours {
+        margin: auto;
+    }
+
+    /* about page */
+
+    .how-we-started {
         width: 100%;
         float: left;
         text-align: center;
         padding: 5px 5px;
         margin-bottom: 25px;
     }
+
     #about .content h2 {
         text-align: right;
     }
-    #how-we-started > p {
+
+    .how-we-started > p {
         text-align: left;
         margin-right: -70px;
         margin-left: 20px;
     }
-    
+
     #group {
-        width:100%;
+        width: 100%;
         float: left;
         max-width: 100%;
         max-height: 100%;
         overflow: auto;
     }
-    
+
     /* news letter */
-    #news {
+    .news {
         height: 100px;
     }
-    #news h2 {
+
+    .news h2 {
         font-size: 90%;
     }
 
-     /* service page */
-     #wedding-dress,#prom-dress,#pageant-dress,#suits {
+    /* service page */
+    #service {
+        margin-top: -750px;
+    }
+    .dress-type {
+        width: 100%;
+        align-items: center;
+    }
+   .dress {
         float: left;
         width: 100%;
         margin-bottom: 50px;
     }
+
     .content {
         margin-left: 1%;
         margin-right: 1%;
         padding: 3px 3px;
     }
+
     #newly-married {
         width: 100%;
         margin-bottom: 30px;
     }
-    #service-details {
+
+    .service-details {
         float: left;
         width: 100%;
         margin-left: 0;
         padding: 0;
         margin-bottom: 30px;
     }
+
     .accordion {
         width: 100%;
     }
 
-     /* contact page */
-     #contact,#contact-form {
+    /* contact page */
+    #contact,
+    #contact-form {
         float: left;
         width: 100%;
     }
+
     .text-input {
         width: 80%;
     }
+
     #contact-form textarea {
         width: 80%;
     }
 
-
-    #foot p {
-        font-size: 60%;
-        margin-bottom: 3px;
+    #foot #copy {
+        height: 30px;
+        background-color: #292F36;
+    
     }
+    #foot p {
+        color: #D5DCF9;
+        font-size: 70%;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+    }
+   
+    
+}
+
+/* very small screens */
+@media  screen and (max-width: 280px) {
+    .container nav {
+        float: left;
+        margin-top: 25px;
+        margin-right: -70px;
+        margin-left: -60px;
+    }
+
 }

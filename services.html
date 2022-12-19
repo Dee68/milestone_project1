@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,121 +13,141 @@
 </head>
 
 <body>
- <header>
-    <div id="container">
-        <div id="logo-container" role="img" aria-label="Lamad logo image" title="Lamad logo image">
-            <a href="index.html" id="logo"><img src="assets/images/lamad.webp" alt="lamad logo image" width="300" height="74"></a>
+    <header>
+        <div class="container">
+            <div id="logo-container" role="img" aria-label="Lamad logo image" title="Lamad logo image">
+                <a href="index.html" id="logo"><img src="assets/images/lamad.webp" alt="lamad logo image" width="300"
+                        height="74"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="active">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="services.html" class="active">Services</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
- </header>
- <a href="#" id="off" ></a>
- <section id="main-image">
-    <div id="tailor-image" role="img" aria-label="lady with a sewing machine" title="lady with a sewing machine">
-        <img src="assets/images/tailor.webp" alt="lady with a sewing machine" width="1000" height="668">
-    </div>
-     <h1 class="info">Services</h1>
- </section>
+    </header>
+    <a href="#" id="off"></a>
+    <section id="main-image">
+        <div id="tailor-image" role="img" aria-label="lady with a sewing machine" title="lady with a sewing machine">
+            <img src="assets/images/tailor.webp" alt="lady with a sewing machine" width="1000" height="668">
+        </div>
+        <h1 class="info">Services</h1>
+    </section>
 
     <section id="service">
-        <div id="dress-type">
-            <div id="wedding-dress" role="img" aria-label="image of a lady in wedding dress" title="image of a lady in wedding dress">
+        <div class="dress-type">
+            <div id="wedding-dress" class="dress" role="img" aria-label="image of a lady in wedding dress"
+                title="image of a lady in wedding dress">
                 <h2 class="title">Wedding dress</h2>
             </div>
-            <div id="prom-dress" role="img" aria-label="image of a lady in prom dress" title="image of a lady in prom dress">
+            <div id="prom-dress" class="dress" role="img" aria-label="image of a lady in prom dress"
+                title="image of a lady in prom dress">
                 <h2 class="title">Prom dress</h2>
             </div>
-            <div id="pageant-dress" role="img" aria-label="image of a lady in pageant dress" title="image of a lady in pageant dress">
+            <div id="pageant-dress" class="dress" role="img" aria-label="image of a lady in pageant dress"
+                title="image of a lady in pageant dress">
                 <h3 class="title">Pageant dress</h3>
             </div>
-            <div id="suits" role="img" aria-label="image of a man with his bride in a suit" title="image of a man with his bride in a suit">
+            <div id="suits" class="dress" role="img" aria-label="image of a man with his bride in a suit"
+                title="image of a man with his bride in a suit">
                 <h3 class="title">Men's suit</h3>
             </div>
         </div>
-        <div id="our-services">
-            <!-- <h2>Our Services</h2> -->
+        <div class="our-services">
             <div class="content">
                 <div id="newly-married" role="img" aria-label="newly married couples" title="newly married couples">
                     <img src="assets/images/men_suit.webp" alt="newly married couples" width="400" height="268">
                 </div>
-                <div id="service-details">
+                <div class="service-details">
                     <div class="accordion">
-                       <div>
-                        <input type="checkbox" id="alteration" class="accordion-input">
-                        <label for="alteration" class="accordion-label"> When should I schedule my alteration?</label>
-                        <div class="accordion-content">
-                            <p>Schedule your first bridal alteration 8-12 weeks prior to your wedding day. 
-                            This gives you plenty of time for a second fitting and also any changes you may desire prior to your special day.</p>
+                        <div>
+                            <input type="checkbox" id="alteration" class="accordion-input">
+                            <label for="alteration" class="accordion-label"> When should I schedule my
+                                alteration?</label>
+                            <div class="accordion-content">
+                                <p>Schedule your first bridal alteration 8-12 weeks prior to your wedding day.
+                                    This gives you plenty of time for a second fitting and also any changes you may
+                                    desire prior to your special day.</p>
+                            </div>
                         </div>
-                       </div>
                     </div>
                     <div class="accordion">
                         <div>
-                         <input type="checkbox" id="how" class="accordion-input">
-                         <label for="how" class="accordion-label">How long will it take to alter my dress?</label>
-                         <div class="accordion-content">
-                             <p>The total process can take several weeks, sometimes longer during the busiest times of wedding season (March-June).
-                                 With an average of 2 fittings, this can span 6-8 weeks. Dresses requiring more extensive alterations like straps, 
-                                 bust, hips, bustle, etc will take longer. A hem, for example may take only 1 week. Rush option is available for last minute alterations. 
-                                We try our very best to accommodate every bride.</p>
-                         </div>
+                            <input type="checkbox" id="how" class="accordion-input">
+                            <label for="how" class="accordion-label">How long will it take to alter my dress?</label>
+                            <div class="accordion-content">
+                                <p>The total process can take several weeks, sometimes longer during the busiest times
+                                    of wedding season (March-June).
+                                    With an average of 2 fittings, this can span 6-8 weeks. Dresses requiring more
+                                    extensive alterations like straps,
+                                    bust, hips, bustle, etc will take longer. A hem, for example may take only 1 week.
+                                    Rush option is available for last minute alterations.
+                                    We try our very best to accommodate every bride.</p>
+                            </div>
                         </div>
-                     </div>
-                     <div class="accordion">
+                    </div>
+                    <div class="accordion">
                         <div>
-                         <input type="checkbox" id="cost" class="accordion-input">
-                         <label for="cost" class="accordion-label">How much do alterations cost?</label>
-                         <div class="accordion-content">
-                             <p>Depending on what you need done to your dress, alteration fees can be as nominal as $100, to well over $1000. 
-                                Every dress and every woman is unique, in order to give you the most accurate price we encourage you to come in for your complimentary consultation.</p>
-                         </div>
+                            <input type="checkbox" id="cost" class="accordion-input">
+                            <label for="cost" class="accordion-label">How much do alterations cost?</label>
+                            <div class="accordion-content">
+                                <p>Depending on what you need done to your dress, alteration fees can be as nominal as
+                                    $100, to well over $1000.
+                                    Every dress and every woman is unique, in order to give you the most accurate price
+                                    we encourage you to come in for your complimentary consultation.</p>
+                            </div>
                         </div>
-                     </div>
-                     <div class="accordion">
+                    </div>
+                    <div class="accordion">
                         <div>
-                         <input type="checkbox" id="fittings" class="accordion-input">
-                         <label for="fittings" class="accordion-label"> How much do you charge for fittings?</label>
-                         <div class="accordion-content">
-                             <p>We love our customers so much we offer complimentary consultations and fittings.</p>
-                         </div>
+                            <input type="checkbox" id="fittings" class="accordion-input">
+                            <label for="fittings" class="accordion-label"> How much do you charge for fittings?</label>
+                            <div class="accordion-content">
+                                <p>We love our customers so much we offer complimentary consultations and fittings.</p>
+                            </div>
                         </div>
-                     </div>
-                    
+                    </div>
+
                 </div>
-                
+
             </div>
         </div>
     </section>
     <footer>
         <div id="foot">
-        <ul class="social-links">
-            <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page(opens on a new tab)"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page(opens on a new tab)"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page(opens on a new tab)"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page(opens on a new tab)"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-        <div id="copy">
-            <p>copyright &copy; Lamad Tailors 2022. All rights Reserved!</p>
+            <ul class="social-links">
+                <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our facebook page(opens on a new tab)"><i
+                            class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our twitter page(opens on a new tab)"><i
+                            class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our youtube page(opens on a new tab)"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our instagram page(opens on a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            <div id="copy">
+                <p>copyright &copy; Lamad Tailors 2022. All rights Reserved!</p>
             </div>
-       </div>
+        </div>
     </footer>
-    <a href="#" id="to-top" aria-label="move to top of page"><span class="move_to_top"><i class="fas fa-caret-up"></i></span></a>
+    <a href="#" id="to-top" aria-label="move to top of page"><span class="move_to_top"><i
+                class="fas fa-caret-up"></i></span></a>
     <!-- fontawesome  -->
-    <script src="https://kit.fontawesome.com/9273c684b9.js" crossorigin="anonymous"></script>  
+    <script src="https://kit.fontawesome.com/9273c684b9.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
