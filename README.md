@@ -1,8 +1,8 @@
 # Lamad
-The Lamad website is a tailoring website that is the dream of a group of Ukrainian ladies that aspires to show off their talents by rendering tailoring services in Cahersiveen. Lamad offers services not only to people in cahersiveen but also nearby towns such as Balle Skellig,Port Magee and its environs.
+The Lamad website is a tailoring website that is the dream of a group of Ukrainian ladies that are aspiring to show off their talents by rendering tailoring services in Cahersiveen. Lamad offers services not only to people in cahersiveen but also nearby towns such as Balle Skellig,Port Magee and its environs.
 
 
-Users of this website will be able to find all the information they need to know about Lamad:Buisness hours, services and contact information.This site is targeted towards anyone that is in need of a unique dress or needs dress to be altered.
+Users of this website will be able to find all the information they need to know about Lamad:Buisness hours, services and contact information.This site is targeted towards anyone that is in need of a unique dress or needs dress to be altered also for those who are looking for innovation in the tailoring buisness.
 
 ![lamad responsive image](readme_images/lamad-responsive-white.png)
 
@@ -10,13 +10,13 @@ Users of this website will be able to find all the information they need to know
 ## Features
 - Navigation
 
-    - Featured at the top of the page,the navigation shows the logo image with the name at the left upper corner which links to the home page.
+    - Featured at the top of the page,the navigation shows the logo image with the name Lamad at the left upper corner which links to the home page.
     - The other navigation links are to the right: Home, About, Services and Contact which links to different corresponding pages.
     - The navigation is in a font and color that contrasts the background.
     - The navigation clearly tells the user the name of the tailoring website and makes the information of different pages easy to find.
 #
-## Logo     About      Services       Contact
-![home page](assets/images/homepage.webp)
+## Home
+ - 
 ## Testing
 - I tested that this page works in different browsers : Chrome, Firefox and Safari
 - I confirmed that the navigation, header, about, services and contact pages all have readable texts and are easy to understand.
