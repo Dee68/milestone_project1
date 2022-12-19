@@ -836,7 +836,7 @@ h1,h2 {
         margin-left: 80px;
     }
     #welcome {
-        top: 90%;
+        top: 750px;
     }
     #works {
         margin-top: 40%; 
@@ -846,7 +846,7 @@ h1,h2 {
     }
     /* about */
     #about {
-        margin-top: 300px;
+        margin-top: 500px;
     }
     /* services */
     #services {
