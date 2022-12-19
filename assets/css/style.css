@@ -675,7 +675,7 @@ h1,h2 {
 }
 #how:checked ~ .accordion-content{
     display: block;
-    
+
 }
 .accordion div #cost{
     display: none;
@@ -835,6 +835,13 @@ h1,h2 {
     #container #logo-container #logo img {
         margin-left: 80px;
     }
+    #works {
+        margin-top: 40%; 
+    }
+    #sayings {
+        margin-top: 100px; 
+    }
+    
 } 
 /* Large devices (laptops/desktops, 992px and up) */
 
