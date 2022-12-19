@@ -835,6 +835,9 @@ h1,h2 {
     #container #logo-container #logo img {
         margin-left: 80px;
     }
+    #welcome {
+        top: 90%;
+    }
     #works {
         margin-top: 40%; 
     }
