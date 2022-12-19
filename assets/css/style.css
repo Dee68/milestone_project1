@@ -842,7 +842,7 @@ h1,h2 {
         margin-top: 40%; 
     }
     #sayings {
-        margin-top: 80px; 
+        margin-top: 50px; 
     }
     /* about */
     #about {
@@ -851,6 +851,10 @@ h1,h2 {
     /* services */
     #services {
         margin-top: 650px;
+    }
+    /* contact */
+    #contact-page {
+        margin-top: 450px;
     }
     
 } 
