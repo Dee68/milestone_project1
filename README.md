@@ -4,7 +4,7 @@ The Lamad website is a tailoring website that is the dream of a group of Ukraini
 
 Users of this website will be able to find all the information they need to know about Lamad:Buisness hours, services and contact information.This site is targeted towards anyone that is in need of a unique dress or needs dress to be altered.
 
-![lamad responsive image](assets/images/lamad-responsive-white.png)
+![lamad responsive image](readme_images/lamad-responsive-white.png)
 
 
 ## Features
@@ -37,10 +37,10 @@ Users of this website will be able to find all the information they need to know
 ### Validator Testing
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
-  ![index page](assets/images/w3c-html.png)
-  ![about page](assets/images/W3C-about.png)
-  ![services page](assets/images/W3C-service.png)
-  ![contact page](assets/images/W3C-contact.png)
+  ![index page](readme_images/w3c-html.png)
+  ![about page](readme_images/W3C-about.png)
+  ![services page](readme_images/W3C-service.png)
+  ![contact page](readme_images/W3C-contact.png)
 - CSS
   - No errors were returned when passing through the official [CSS Valdation Service](https://jigsaw.w3.org/css-validator/)
   ![stylesheet](assets/images/W3C-css.png)
@@ -48,9 +48,9 @@ Users of this website will be able to find all the information they need to know
 
 ## Google Developer Tools
 - I made use of the built-in **Chrome Dev Tools** to experiment and debug while coding, in addition to testing simulated responsive behaviour across a wide range of mobile and desktop devices, and finally checking all pages Performance using **Lighthouse**.
-![Lamad performance](assets/images/performance-sucks%20.png)
+![Lamad performance](readme_images/performance-sucks.png)
 - I spent too much time trying to improve the performance of my pages, eventually changed all the images to .webp format.
-![Lamad better performance](assets/images/lamad-performance.jpeg)
+![Lamad better performance](readme_images/lamad-performance.jpeg)
 
 
 - Accessibility
