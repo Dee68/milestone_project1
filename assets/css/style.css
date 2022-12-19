@@ -859,7 +859,7 @@ h1,h2 {
      /* welcome */
      #welcome {
         height: auto;
-        top: 70%;
+        top: 80%;
         /* font-size: 90%; */
     }
     #welcome > h1 {
