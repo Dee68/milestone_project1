@@ -23,7 +23,6 @@ h2 {
     letter-spacing: 4px;
     color: #fafafa;
 }
-
 .info {
     font-size: 380%;
     color: #292F36;
@@ -35,7 +34,6 @@ h2 {
     left: 50%;
     transform: translate(-50%, 80%);
 }
-
 .container {
     display: block;
     margin: 0 auto;
@@ -51,8 +49,6 @@ h2 {
 
 }
 
-
-
 /* header,logo and navigation */
 
 #main-header {
@@ -63,7 +59,6 @@ h2 {
     background-size: cover;
     height: 100vh;
 }
-
 #main-header nav {
     width: 100%;
     min-height: 50px;
@@ -73,25 +68,21 @@ h2 {
     line-height: 50px;
     display: flex;
 }
-
 #main-header nav #logo img {
     width: 70%;
     height: auto;
     padding: 8px 8px;
     margin-left: 90px;
 }
-
 #main-header nav ul {
     list-style-type: none;
 }
-
 #main-header nav ul li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 50px;
     margin-top: 25px;
 }
-
 #main-header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -99,7 +90,6 @@ h2 {
     font-weight: bold;
     color: #D5DCF9;
 }
-
 #main-header nav li::after {
     content: '';
     display: block;
@@ -109,11 +99,9 @@ h2 {
     background-color: #D5DCF9;
     transition: 0.5s ease;
 }
-
 #main-header nav li:hover::after {
     width: 100%;
 }
-
 #main-header #welcome {
     width: 60%;
     height: auto;
@@ -129,7 +117,6 @@ h2 {
     z-index: 100;
     top: 80%;
 }
-
 .mytext {
     width: 100%;
     margin: 0 auto;
@@ -137,22 +124,18 @@ h2 {
     word-wrap: break-word;
     border: 1px solid transparent;
 }
-
 #welcome>h1 {
     font-size: 280%;
     font-weight: bold;
 }
-
 #welcome>h2 {
     font-size: 60%;
 }
-
 #welcome>h1,
 h2 {
     color: #292F36;
 
 }
-
 
 .active {
     border-bottom: 1px solid #D5DCF9;
@@ -175,8 +158,6 @@ h2 {
     top: 80%;
 }
 
-
-
 /* works section */
 #works {
     display: block;
@@ -184,13 +165,11 @@ h2 {
     margin-left: 4%;
     margin-right: 4%;
 }
-
 #works p {
     font-weight: bold;
     font-size: 110%;
     color: #292F36;
 }
-
 #works h2,
 h3 {
     font-size: 110%;
@@ -198,14 +177,12 @@ h3 {
     transform: translate(0);
     text-align: center;
 }
-
 .content {
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px 20px;
 }
-
-.content>h2 {
+.content > h2 {
     text-transform: uppercase;
     font-size: 150%;
     color: #292F36;
@@ -213,7 +190,6 @@ h3 {
     margin-top: 35px;
     text-align: center;
 }
-
 .card {
     text-align: center;
     padding: 30px 30px;
@@ -223,50 +199,41 @@ h3 {
     position: relative;
     background-color: rgba(217, 188, 169, 0.7);
 }
-
 .card i {
     font-size: 200%;
     font-weight: bold;
     color: #292F36;
 }
-
 .card>h3 {
     font-size: 120%;
     font-weight: bold;
     padding-bottom: 10px;
 }
-
 .card:hover {
     height: auto;
     border: 2px solid #7C4E29;
     transition: all ease-in 3s;
     transform: scale(1);
 }
-
 #left-content {
     width: 33%;
     float: left;
 }
-
 #right-content {
     float: right;
     width: 33%;
 }
-
 #center-content {
     width: 33%;
     margin: 0 auto;
 }
-
 .card .text {
     opacity: 0;
     transition: 0.5s;
 }
-
 .card .text:hover {
     opacity: 1;
 }
-
 .text {
     text-align: center;
     font-size: 75%;
@@ -279,7 +246,6 @@ h3 {
     margin-left: 4%;
     margin-right: 4%;
 }
-
 .design {
     text-align: center;
     padding: 10px 10px;
@@ -291,30 +257,25 @@ h3 {
     box-shadow: 0 0 10px rgba(217, 188, 169, 0.6);
     opacity: 1;
 }
-
 .placeholder {
     display: inline-block;
     vertical-align: top;
     width: 23%;
 }
-
 .persons span {
     font-size: 80%;
     font-weight: bold;
 }
-
 .customer {
     font-size: 110%;
     font-weight: bold;
     color: #7C4E29;
 }
-
 .client {
     width: 100px;
     height: 100px;
     margin: 0 auto;
 }
-
 #client1 {
     background-image: url('../images/person1.webp');
     background-repeat: no-repeat;
@@ -323,7 +284,6 @@ h3 {
     border-radius: 50%;
     margin-bottom: 10px;
 }
-
 #client2 {
     background-image: url('../images/person2.webp');
     background-repeat: no-repeat;
@@ -332,7 +292,6 @@ h3 {
     border-radius: 50%;
     margin-bottom: 10px;
 }
-
 #client3 {
     background-image: url('../images/person3.webp');
     background-repeat: no-repeat;
@@ -341,7 +300,6 @@ h3 {
     border-radius: 50%;
     margin-bottom: 10px;
 }
-
 #client4 {
     background-image: url('../images/person4.webp');
     background-repeat: no-repeat;
@@ -361,7 +319,6 @@ h3 {
     margin-left: 4%;
     margin-right: 4%;
 }
-
 #times {
     padding: 10px 10px;
     margin-top: 10px;
@@ -372,7 +329,6 @@ h3 {
     float: left;
     clear: left;
 }
-
 #times>h2 {
     text-align: left;
     font-size: 140%;
@@ -384,7 +340,6 @@ h3 {
     margin-left: 10px;
     color: #292F36;
 }
-
 #times p {
     text-align: left;
     display: block;
@@ -394,8 +349,6 @@ h3 {
     margin-left: 10px;
     margin-top: 10px;
 }
-
-
 #deviz {
     float: right;
     clear: right;
@@ -409,7 +362,6 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
 }
 
 /* footer */
@@ -421,13 +373,11 @@ h3 {
     align-items: center;
     margin: 0 auto;
 }
-
 #foot #copy {
     height: 40px;
     background-color: #292F36;
 
 }
-
 #foot p {
     font-weight: bold;
     font-size: 110%;
@@ -446,7 +396,6 @@ h3 {
     right: 20px;
     z-index: 10000;
 }
-
 #to-top>span {
     width: 52px;
     height: 52px;
@@ -457,24 +406,18 @@ h3 {
     border: 2px solid transparent;
     text-align: center;
 }
-
 #to-top>span:hover {
     background-color: transparent;
 }
-
 #to-top i {
     color: #292F36;
     font-size: 250%;
-
-
 }
-
 .move_to_top {
     position: relative;
     display: inline-block;
     vertical-align: middle;
 }
-
 #off {
     visibility: hidden;
 
@@ -485,11 +428,9 @@ h3 {
 .social-links {
     text-align: center;
 }
-
 .social-links>li {
     display: inline;
 }
-
 .social-links i {
     font-size: 160%;
     color: #292F36;
@@ -503,13 +444,11 @@ h3 {
     align-items: center;
     margin-top: 400px;
 }
-
 #about .content h2 {
     font-size: 180%;
     font-weight: bold;
     text-align: justify;
 }
-
 .how-we-started {
     width: 50%;
     height: auto;
@@ -521,20 +460,17 @@ h3 {
     font-size: 1.2em;
     margin-bottom: 50px;
 }
-
 .how-we-started p::first-letter {
     text-transform: capitalize;
     font-size: 110%;
     font-weight: bold;
 }
-
 #group {
     width: 50%;
     height: auto;
     float: right;
     margin-bottom: 50px;
 }
-
 #group img {
     width: 100%;
     height: auto;
@@ -550,7 +486,6 @@ h3 {
     margin-right: 1%;
     margin-top: 100px;
 }
-
 .news {
     height: 150px;
     margin-top: 15%;
@@ -558,7 +493,6 @@ h3 {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .news form input {
     width: 40%;
     height: 40px;
@@ -570,7 +504,6 @@ h3 {
     font-size: 150%;
     color: #292F36;
 }
-
 .news form button {
     margin-left: 45%;
     margin-right: 45%;
@@ -583,12 +516,10 @@ h3 {
     text-transform: uppercase;
     padding: 10px 20px;
 }
-
 .news form button:hover {
     background-color: #D5DCF9;
     color: #292F36;
 }
-
 .news h3 {
     font-size: 130%;
     font-weight: bold;
@@ -604,7 +535,6 @@ h3 {
     margin-left: 1%;
     margin-right: 1%;
 }
-
 .dress-type {
     margin-top: 420px;
     background-color: #fafafa;
@@ -613,7 +543,6 @@ h3 {
     margin-right: 4%;
     justify-content: center;
 }
-
 .dress {
     position: relative;
     width: 23%;
@@ -622,14 +551,12 @@ h3 {
     margin-right: 12px;
 
 }
-
 #wedding-dress {
     background-image: url('../images/wedding_dress.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 #prom-dress {
     background-image: url('../images/prom_dress.webp');
     background-repeat: no-repeat;
@@ -637,21 +564,18 @@ h3 {
     background-size: cover;
 
 }
-
 #pageant-dress {
     background-image: url('../images/pageant_dress.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 #suits {
     background-image: url('../images/men_suit1.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 .title {
     position: absolute;
     bottom: -30px;
@@ -662,7 +586,6 @@ h3 {
     text-transform: uppercase;
     color: #292F36;
 }
-
 .our-services {
     width: 100%;
     margin-top: 150px;
@@ -670,23 +593,19 @@ h3 {
     height: 900px;
     background-color: transparent;
 }
-
 .our-services .content {
     height: 100%;
 }
-
 #newly-married {
     float: left;
     clear: both;
     width: 50%;
     height: auto;
 }
-
 #newly-married img {
     width: 100%;
     height: auto;
 }
-
 #service-detail {
     float: right;
     width: 50%;
@@ -707,12 +626,10 @@ h3 {
     overflow: hidden;
     background-color: rgba(217, 188, 169, 0.6);
 }
-
 .accordion-label,
 .accordion-content {
     padding: 14px 20px;
 }
-
 .accordion-label {
     display: block;
     color: #292F36;
@@ -721,43 +638,33 @@ h3 {
     position: relative;
     transition: background-color 0.1s;
 }
-
 .accordion-label:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 .accordion-content {
     background: white;
     line-height: 1.6;
     font-size: 1.2em;
     display: none;
 }
-
 .accordion div #how,
 #cost,
 #fittings,
 #alteration {
     display: none;
 }
-
 #alteration:checked~.accordion-content {
     display: block;
 }
-
 #how:checked~.accordion-content {
     display: block;
-
 }
-
 #cost:checked~.accordion-content {
     display: block;
 }
-
 #fittings:checked~.accordion-content {
     display: block;
 }
-
-
 
 /* contact page */
 #contact-page {
@@ -765,10 +672,6 @@ h3 {
     align-items: center;
     margin-top: 250px;
 }
-
-
-
-
 #contact-form {
     float: left;
     width: 55%;
@@ -779,7 +682,6 @@ h3 {
     padding: 5px 5px;
     margin-bottom: 0;
 }
-
 #contact-form form label {
     font-size: 120%;
     font-weight: 400;
@@ -788,8 +690,6 @@ h3 {
     margin-left: 10px;
     margin-bottom: 15px;
 }
-
-
 #contact {
     float: right;
     clear: right;
@@ -797,11 +697,9 @@ h3 {
     margin-top: 330px;
     padding: 10px 5px;
 }
-
 #contact p i {
     color: #292F36;
 }
-
 #contact h2 {
     text-align: left;
     font-size: 180%;
@@ -871,7 +769,6 @@ h3 {
     color: #292F36;
 }
 
-
 /* google map */
 #map {
     clear: both;
@@ -880,18 +777,15 @@ h3 {
     align-items: center;
     margin-bottom: 20px;
 }
-
 #map-wrapper {
     height: 600px;
     width: 100%;
 
 }
-
 #map-wrapper h2 {
     text-align: center;
     margin-bottom: 20px;
 }
-
 #map-wrapper iframe {
     width: 100%;
     height: 100%;
@@ -899,7 +793,6 @@ h3 {
 }
 
 /* media queries */
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .container #logo-container #logo img {
@@ -936,7 +829,7 @@ h3 {
 
     /* contact */
     #contact-page {
-        margin-top: 100px;
+        margin-top: -100px;
     }
 
 }
@@ -971,6 +864,9 @@ h3 {
 
     .design {
         height: 300px;
+    }
+    #works {
+        margin-top: 150px;
     }
 
     #service {
@@ -1194,7 +1090,6 @@ h3 {
 
 }
 
-
 /* Medium devices (landscape tablets, 768px and below) */
 @media screen and (max-width: 767px) {
 
@@ -1249,7 +1144,7 @@ h3 {
     /* works */
 
     #works {
-        margin-top: 30px;
+        margin-top: 70px;
 
     }
 
@@ -1311,7 +1206,8 @@ h3 {
     .how-we-started {
         width: 100%;
         float: left;
-        text-align: center;
+        text-align: left;
+        justify-content: center;
         padding: 5px 5px;
     }
 
@@ -1392,9 +1288,10 @@ h3 {
         left: 50%;
         font-size: 159%;
     }
+   
 
     #contact-page {
-        margin-top: -50px;
+        margin-top: 300px;
     }
 
     #contact,
@@ -1426,7 +1323,6 @@ h3 {
 }
 
 /* Super Extra Small devices  */
-
 @media screen and (max-width: 360px) {
     #main-header nav #logo img {
         width: 35%;
@@ -1440,7 +1336,7 @@ h3 {
     }
 
     #main-header nav ul li {
-        margin-right: 5px;
+        margin-right: -15px;
         margin-left: 25px;
     }
 
@@ -1456,7 +1352,7 @@ h3 {
     }
 
     #works {
-        margin-top: -180px;
+        margin-top: 200px;
     }
 
     #sayings,
@@ -1469,25 +1365,12 @@ h3 {
         margin-top: 100px;
         justify-content: center;
     }
-
-    .how-we-started {
-        width: 100%;
-        float: left;
-        text-align: center;
-        padding: 5px 5px;
-        margin-bottom: 25px;
+    .how-we-started > p {
+        font-size: 80%;
     }
-
     #about .content h2 {
-        text-align: right;
+        text-align: center;
     }
-
-    .how-we-started>p {
-        text-align: left;
-        margin-right: -70px;
-        margin-left: 20px;
-    }
-
     #group {
         width: 100%;
         float: left;
@@ -1545,6 +1428,9 @@ h3 {
     }
 
     /* contact page */
+    #contact-page {
+        margin-top: 300px;
+    }
     #contact,
     #contact-form {
         float: left;
@@ -1576,12 +1462,12 @@ h3 {
 /* very small screens */
 @media screen and (max-width: 280px) {
     #main-header nav ul li {
-        margin-right: 0;
+        margin-right: -15px;
         margin-left: 20px;
     }
 
     #main-header nav ul li a {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     /* works */
