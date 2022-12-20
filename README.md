@@ -60,7 +60,7 @@ Users of this website will be able to find all the information they need to know
   ![contact page](readme_images/W3C-contact.png)
 - CSS
   - No errors were returned when passing through the official [CSS Valdation Service](https://jigsaw.w3.org/css-validator/)
-  ![stylesheet](assets/images/W3C-css.png)
+  ![stylesheet](readme_images/W3C-css.png)
 
 
 ## Google Developer Tools
