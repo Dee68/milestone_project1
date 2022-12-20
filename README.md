@@ -1,5 +1,5 @@
 # Lamad
-The Lamad website is a tailoring website that is the dream of a group of Ukrainian ladies that are aspiring to show off their talents by rendering tailoring services in Cahersiveen. Lamad offers services not only to people in cahersiveen but also nearby towns such as Balle Skellig,Port Magee and its environs.
+The Lamad website is a tailoring website that is the dream of a group of Ukrainian ladies that are aspiring to show off their talents by rendering tailoring services in Cahersiveen. Lamad offers services not only to people in cahersiveen but also to nearby towns such as Balle Skellig,Port Magee and its environs.
 
 
 Users of this website will be able to find all the information they need to know about Lamad:Buisness hours, services and contact information.This site is targeted towards anyone that is in need of a unique dress or needs dress to be altered also for those who are looking for innovation in the tailoring buisness.
@@ -8,21 +8,38 @@ Users of this website will be able to find all the information they need to know
 
 
 ## Features
-- Navigation
-
-    - Featured at the top of the page,the navigation shows the logo image with the name Lamad at the left upper corner which links to the home page.
-    - The other navigation links are to the right: Home, About, Services and Contact which links to different corresponding pages.
-    - The navigation is in a font and color that contrasts the background.
-    - The navigation clearly tells the user the name of the tailoring website and makes the information of different pages easy to find.
 #
-## Home
- - 
+
+- Featured at the top of the page,the navigation shows the logo image with the name Lamad at the left upper corner which links to the home page.
+- The other navigation links are to the right: Home, About, Services and Contact which links to different corresponding pages.
+- The navigation is in a font and color that contrasts the background.
+- The navigation clearly tells the user the name of the tailoring website and makes the information of different pages easy to find.
+
+## Technologies Used
+# 
+### Languages used
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries & Programs Used
+- [Google Fonts](https://developers.google.com/fonts)
+  - Google fonts were used to import the 'Lato' and 'Oswald' font into the style.css file which is used on all pages throughout the project.
+- [FontAwesome](https://fontawesome.com/)
+  - Font Awesome was used on some pages of the website to add icons for aesthetic and UX purposes.
+- [Git](https://git-scm.com/)
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub](https://github.com/)
+  - GitHub is used to store the projects code after being pushed from Git.
+
+
+#
+
 ## Testing
 - I tested that this page works in different browsers : Chrome, Firefox and Safari
 - I confirmed that the navigation, header, about, services and contact pages all have readable texts and are easy to understand.
 - I have confirmed that the form works correctly validating all input elements and the submit button works.
-![contact page](assets/images/contact.png)
-![newsletter](assets/images/newsletter.png)
+![contact page](readme_images/contact.png)
+![newsletter](readme_images/newsletter.png)
 ### Bugs
 #### Solved bugs
 - When I tested my web pages with lighthouse I discovered that the upload time of the pages was very slow.
@@ -72,13 +89,19 @@ No unfixed bugs
 
 # Credits
 ## Content
-- The code to make an accordion was taken from [W3schools Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
+- All content was written by the developer.
+- The code to make an accordion was adapted from [W3schools Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
 - The code to make the footer was taken from the CI [Love Running](https://dee68.github.io/love-running/) project.
 - All icons on the pages where taken from [FontAwesome](https://fontawesome.com)
 
 ## Media
 - The logo in the header was made from [Free Logo Maker](https://logo.com/)
 - All images on the web pages are taken from [Pexels](https://www.pexels.com/ru-ru/)
+
+## Acknowledgments
+  - My mentor for continuos useful feedback.
+  - My collegues here with me for the useful advices.
+  - Code Institute for enabling me to better understand css.
 
 
 
