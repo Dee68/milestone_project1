@@ -61,18 +61,18 @@ h2 {
 }
 #main-header nav {
     width: 100%;
-    min-height: 50px;
+    min-height: 20px;
     justify-content: space-between;
     background-color: #292F36;
     border-bottom: #7C4E29 1px solid;
-    line-height: 50px;
+    line-height: 20px;
     display: flex;
 }
 #main-header nav #logo img {
-    width: 70%;
+    width: 60%;
     height: auto;
     padding: 8px 8px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 #main-header nav ul {
     list-style-type: none;
