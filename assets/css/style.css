@@ -1402,7 +1402,6 @@ h3 {
         float: left;
         width: 100%;
         clear: both;
-
     }
 
     #contact-form {
@@ -1572,8 +1571,6 @@ h3 {
         margin-bottom: 10px;
         padding: 5px 5px;
     }
-
-
 }
 
 /* very small screens */
@@ -1587,6 +1584,7 @@ h3 {
         font-size: 70%;
     }
 
+    /* works */
     #works {
         margin-top: 180px;
     }
