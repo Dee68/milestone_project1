@@ -16,7 +16,6 @@ body {
 }
 
 /* Global */
-
 h1,
 h2 {
     font-family: Oswald, sans-serif;
@@ -53,40 +52,55 @@ h2 {
 }
 
 
+
 /* header,logo and navigation */
 
-.container #logo-container {
-    float: left;
-    clear: left;
-    width: 20%;
-    height: 80px;
+#main-header {
+    width: 100vw;
+    background-image: url('../images/newtailor.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-.container #logo-container #logo img {
+#main-header nav {
     width: 100%;
-    height: auto;
-    padding: 10px 10px;
-    margin-left: 50px;
-}
-
-.container nav {
-    float: right;
-    clear: right;
-    align-items: center;
+    min-height: 50px;
     justify-content: space-between;
-    padding: 2% 6%;
+    background-color: #292F36;
+    border-bottom: #7C4E29 1px solid;
+    line-height: 50px;
+    display: flex;
 }
 
-.container nav ul {
+#main-header nav #logo img {
+    width: 70%;
+    height: auto;
+    padding: 8px 8px;
+    margin-left: 90px;
+}
+
+#main-header nav ul {
     list-style-type: none;
 }
 
-.container nav li {
+#main-header nav ul li {
     display: inline-block;
-    margin-right: 18px;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-top: 25px;
 }
 
-.container nav li::after {
+#main-header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: bold;
+    color: #D5DCF9;
+}
+
+#main-header nav li::after {
     content: '';
     display: block;
     width: 0%;
@@ -96,45 +110,11 @@ h2 {
     transition: 0.5s ease;
 }
 
-.container nav li:hover::after {
+#main-header nav li:hover::after {
     width: 100%;
 }
 
-.container nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #D5DCF9;
-}
-
-.container nav a:hover {
-    border-bottom: 1px solid #D5DCF9;
-    color: #D5DCF9;
-}
-
-.active {
-    border-bottom: 1px solid #D5DCF9;
-}
-
-/* main image section */
-#main-image {
-    width: 100%;
-    height: 600px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-}
-
-#main-image #tailor-image img {
-    width: 100%;
-    z-index: -10;
-    margin-top: 3%;
-    position: absolute;
-    height: auto;
-}
-
-/* welcome text section */
-#welcome {
+#main-header #welcome {
     width: 60%;
     height: auto;
     font-size: 120%;
@@ -173,10 +153,34 @@ h2 {
 
 }
 
+
+.active {
+    border-bottom: 1px solid #D5DCF9;
+}
+
+/* welcome text section */
+#welcome {
+    width: 60%;
+    height: auto;
+    font-size: 120%;
+    font-weight: bold;
+    word-wrap: break-word;
+    background-color: rgba(217, 188, 169, 0.7);
+    text-align: center;
+    padding: 10px 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    z-index: 100;
+    top: 80%;
+}
+
+
+
 /* works section */
 #works {
     display: block;
-    margin-top: 25%;
+    margin-top: -500px;
     margin-left: 4%;
     margin-right: 4%;
 }
@@ -901,9 +905,11 @@ h3 {
     .container #logo-container #logo img {
         margin-left: 80px;
     }
+
     #main-image #tailor-image img {
-        margin-left: 4%;
-        margin-right: -4%;
+        width: 100vw;
+
+
     }
 
     #welcome {
@@ -911,7 +917,7 @@ h3 {
     }
 
     #works {
-        margin-top: 40%;
+        margin-top: 120px;
     }
 
     #sayings {
@@ -920,12 +926,12 @@ h3 {
 
     /* about */
     #about {
-        margin-top: 300px;
+        margin-top: 100px;
     }
 
     /* services */
     #service {
-        margin-top: 350px;
+        margin-top: -200px;
     }
 
     /* contact */
@@ -939,12 +945,13 @@ h3 {
 
 @media screen and (min-width: 993px) and (max-width: 1199px) {
 
-    .container #logo-container #logo img {
+    #main-header nav #logo img {
         margin-left: 60px;
     }
-    #main-image #tailor-image img {
-        margin-left: 4%;
-        margin-right: -4%;
+
+    #main-header nav ul {
+        margin-left: -70px;
+
     }
 
     /* welcome */
@@ -965,9 +972,11 @@ h3 {
     .design {
         height: 300px;
     }
+
     #service {
         margin-top: -200px;
     }
+
     #contact-page {
         margin-top: -90px;
     }
@@ -988,6 +997,23 @@ h3 {
     .content h2 {
         text-align: center;
     }
+
+    #main-header nav #logo img {
+        width: 30%;
+        margin-left: 35px;
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-left: 35px;
+        margin-bottom: 5px;
+    }
+
 
     .container #logo-container #logo img {
         margin-left: 30px;
@@ -1049,7 +1075,9 @@ h3 {
     .card i {
         padding-top: 10px;
     }
-    #sayings,#buisness-hours {
+
+    #sayings,
+    #buisness-hours {
         margin: auto;
     }
 
@@ -1064,6 +1092,7 @@ h3 {
         width: 100%;
         margin-bottom: 5px;
     }
+
     #foot p {
         font-weight: bold;
         font-size: 105%;
@@ -1101,6 +1130,7 @@ h3 {
         width: 100%;
         float: left;
     }
+
     /* service */
     #service {
         margin-top: -300px;
@@ -1108,7 +1138,7 @@ h3 {
 
 
     /* contact page */
-   
+
     #contact,
     #contact-form {
         float: left;
@@ -1176,35 +1206,36 @@ h3 {
     }
 
     /* header & navigation */
-
-    .container #logo-container #logo img {
-
-        margin-left: 10px;
-        font-size: 80%;
+    #main-header {
+        align-items: center;
     }
 
-    .container nav {
-        float: left;
-        margin-top: 25px;
-        margin-right: -70px;
-        margin-left: -90px;
+    #main-header nav #logo img {
+        width: 30%;
+        margin-left: 35px;
+        margin-top: 10px;
+        padding: 0;
     }
 
-    .container nav li {
-        margin-right: 0;
-        margin-bottom: 2px;
-        margin-left: -5px;
+    nav {
+        flex-direction: column;
     }
 
-    .container nav a {
-        font-size: 60%;
-        padding: 1px 5px;
+    #main-header nav ul li {
+        margin-right: 15px;
+        margin-left: 30px;
     }
+
+    #main-header nav ul li a {
+        font-size: 74%;
+    }
+
+
 
     #welcome {
         width: 60%;
-        height: 40%;
-        top: 20%;
+        height: 30%;
+        top: 30%;
     }
 
     #welcome>h1 {
@@ -1218,7 +1249,7 @@ h3 {
     /* works */
 
     #works {
-        margin-top: -100px;
+        margin-top: 30px;
 
     }
 
@@ -1245,12 +1276,14 @@ h3 {
         padding-top: 10px;
     }
 
-    .placeholder{
+    .placeholder {
         float: left;
         width: 100%;
         margin-bottom: 5px;
     }
-    #sayings,#buisness-hours {
+
+    #sayings,
+    #buisness-hours {
         margin: auto;
     }
 
@@ -1271,7 +1304,8 @@ h3 {
 
     /* about page */
     #about {
-        margin-top: -150px;
+        margin-top: 100px;
+        justify-content: center;
     }
 
     .how-we-started {
@@ -1319,8 +1353,9 @@ h3 {
     /* service page */
 
     #service {
-        margin-top: -550px;
+        margin-top: -350px;
     }
+
     #wedding-dress,
     #prom-dress {
         width: 46%;
@@ -1353,12 +1388,15 @@ h3 {
 
     /* contact page */
     .info {
-        top: 10%;
+        top: 50%;
         left: 50%;
+        font-size: 159%;
     }
+
     #contact-page {
         margin-top: -50px;
     }
+
     #contact,
     #contact-form {
         float: left;
@@ -1391,15 +1429,24 @@ h3 {
 /* Super Extra Small devices  */
 
 @media screen and (max-width: 360px) {
-    .container #logo-container #logo img {
-        margin-left: 10px;
+    #main-header nav #logo img {
+        width: 35%;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding: 0;
     }
 
-    .container nav {
-        float: left;
-        margin-top: 25px;
-        margin-right: -70px;
-        margin-left: -75px;
+    nav {
+        flex-direction: column;
+    }
+
+    #main-header nav ul li {
+        margin-right: 5px;
+        margin-left: 25px;
+    }
+
+    #main-header nav ul li a {
+        font-size: 73%;
     }
 
     #welcome {
@@ -1408,14 +1455,21 @@ h3 {
         top: 20%;
         font-size: 70%;
     }
+
     #works {
         margin-top: -180px;
     }
-    #sayings,#buisness-hours {
+
+    #sayings,
+    #buisness-hours {
         margin: auto;
     }
 
     /* about page */
+    #about {
+        margin-top: 100px;
+        justify-content: center;
+    }
 
     .how-we-started {
         width: 100%;
@@ -1429,7 +1483,7 @@ h3 {
         text-align: right;
     }
 
-    .how-we-started > p {
+    .how-we-started>p {
         text-align: left;
         margin-right: -70px;
         margin-left: 20px;
@@ -1456,11 +1510,13 @@ h3 {
     #service {
         margin-top: -750px;
     }
+
     .dress-type {
         width: 100%;
         align-items: center;
     }
-   .dress {
+
+    .dress {
         float: left;
         width: 100%;
         margin-bottom: 50px;
@@ -1507,25 +1563,32 @@ h3 {
     #foot #copy {
         height: 30px;
         background-color: #292F36;
-    
+
     }
+
     #foot p {
         color: #D5DCF9;
         font-size: 70%;
         margin-bottom: 10px;
         padding: 5px 5px;
     }
-   
-    
+
+
 }
 
 /* very small screens */
-@media  screen and (max-width: 280px) {
-    .container nav {
-        float: left;
-        margin-top: 25px;
-        margin-right: -70px;
-        margin-left: -60px;
+@media screen and (max-width: 280px) {
+    #main-header nav ul li {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    #main-header nav ul li a {
+        font-size: 70%;
+    }
+
+    #works {
+        margin-top: 180px;
     }
 
 }
