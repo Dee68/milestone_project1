@@ -99,8 +99,8 @@ No unfixed bugs
 - All images on the web pages are taken from [Pexels](https://www.pexels.com/ru-ru/)
 
 ## Acknowledgments
-  - My mentor for continuos useful feedback.
-  - My collegues here with me for the useful advices.
+  - My mentor for his extraordinary insight and continuos useful feedback.
+  - My collegues here with me for their useful advices.
   - Code Institute for enabling me to better understand css.
 
 
