@@ -1391,7 +1391,7 @@ h3 {
 
     /* service page */
     #service {
-        margin-top: -750px;
+        margin-top: -320px;
     }
 
     .dress-type {
@@ -1474,6 +1474,17 @@ h3 {
     /* works */
     #works {
         margin-top: 180px;
+    }
+    /* service*/
+    #service .dress-type {
+        justify-content:center;
+    }
+    #wedding-dress,
+    #prom-dress,#pageant-dress,
+    #suits {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
     }
 
 }
